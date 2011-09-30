@@ -20,7 +20,12 @@ def method3():
     ans = sum(set(list(range(3, 1000, 3)) + list(range(5, 1000, 5))))
     print("Method 3: ", ans)
 
+def method4():
+    ans = sum(range(3, 1000, 3)) + sum(range(5, 1000, 5)) - sum(range(15, 1000, 15))
+    print("Method 4: ", ans)
+
 if __name__ == '__main__':
     method1()
     method2()
     method3()
+    method4()

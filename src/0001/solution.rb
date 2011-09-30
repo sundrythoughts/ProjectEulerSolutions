@@ -23,8 +23,14 @@ end
 
 def method2
     ans = ((3...1000).step(3).to_a + (5...1000).step(5).to_a).uniq.sum
+    puts "Method 2: " + ans.to_s
+end
+
+def method3
+    ans = (3...1000).step(3).to_a.sum + (5...1000).step(5).to_a.sum - (15...1000).step(15).to_a.sum
     puts "Method 3: " + ans.to_s
 end
 
 method1
 method2
+method3
