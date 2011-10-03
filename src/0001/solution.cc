@@ -1,5 +1,7 @@
 #include <iostream>
 
+//SOLVED
+
 using namespace std;
 
 void method1() {
